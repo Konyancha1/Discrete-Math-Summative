@@ -6,7 +6,7 @@ import networkx
 from networkx.generators.random_graphs import erdos_renyi_graph
 
 
-# Function to generate path
+# Function to get graph path
 def dfs(u, graph, visited_edge, path=[]):
     path = path + [u]
     # creating adjacency list
